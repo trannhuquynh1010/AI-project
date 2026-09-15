@@ -1,0 +1,7 @@
+interface:
+  display_name: "Natural Science Learning Design"
+  short_description: "Phản biện giáo án theo CBCI KUD và IBL"
+  default_prompt: "Dùng $review-khtn-lesson-plan để review my learning design."
+
+policy:
+  allow_implicit_invocation: true

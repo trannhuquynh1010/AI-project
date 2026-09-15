@@ -1,0 +1,22 @@
+{
+  "name": "gop-y-giao-an-khtn",
+  "version": "0.1.7",
+  "description": "Phản biện chuyên sâu giáo án Khoa học tự nhiên theo CBCI, KUD, Structure of Knowledge và IBL mà không thiết kế thay giáo viên.",
+  "author": {
+    "name": "LSTS Professional Development"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Natural Science Learning Design",
+    "shortDescription": "Phản biện giáo án theo CBCI, KUD và IBL",
+    "longDescription": "Đóng vai trò đồng nghiệp phản biện, giúp giáo viên Khoa học tự nhiên kiểm tra sự nhất quán của ý tưởng, KUD, Structure of Knowledge, inquiry, hoạt động và đánh giá. Plugin đưa câu hỏi và phương án để giáo viên tự quyết định, không soạn thay giáo án.",
+    "developerName": "LSTS Professional Development",
+    "category": "Education",
+    "capabilities": ["Lesson plan review", "CBCI", "KUD", "Inquiry-based learning"],
+    "defaultPrompt": [
+      "Review My Learning Design",
+      "KUD & Structure of Knowledge",
+      "Suggestions Using IBL"
+    ]
+  }
+}

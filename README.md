@@ -1,6 +1,6 @@
 # Natural Science Learning Design
 
-A Vietnamese-language learning-design review plugin and Custom GPT knowledge package for lower-secondary Natural Science teachers. It supports CBCI, KUD, Structure of Knowledge, IBL, student-centred learning experiences, assessment alignment and differentiation while preserving teacher agency.
+A Vietnamese-language learning-design review plugin for lower-secondary Natural Science teachers. It supports CBCI, KUD, Structure of Knowledge, IBL, student-centred learning experiences, assessment alignment and differentiation while preserving teacher agency.
 
 ## Conversation starters
 
@@ -12,12 +12,8 @@ A Vietnamese-language learning-design review plugin and Custom GPT knowledge pac
 
 The Codex plugin manifest is in `.codex-plugin/plugin.json`. The skill entrypoint and reference materials are under `skills/review-khtn-lesson-plan/`.
 
-## Use as a Custom GPT on ChatGPT web
+## Public release
 
-1. Create a GPT named `Natural Science Learning Design`.
-2. Paste `custom-gpt/GPT_INSTRUCTIONS.md` into the GPT Instructions field.
-3. Upload the Markdown files in `skills/review-khtn-lesson-plan/references/` as Knowledge.
-4. Add the three conversation starters shown above.
-5. Test with a non-sensitive sample lesson plan before making the GPT public.
+This repository contains a skills-only plugin prepared for submission to the OpenAI Plugin Directory. See [submission materials](submission/SUBMISSION.md), [privacy policy](PRIVACY.md), [terms](TERMS.md), and [support](SUPPORT.md).
 
-The source package does not include the original PDFs used during development. Review copyright, privacy and institutional requirements before uploading additional source documents or lesson plans.
+The source package does not include the original PDFs used during development. Review copyright, privacy and institutional requirements before submitting lesson plans.
